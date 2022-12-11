@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin:0px;
+            padding:0px;
+        }
+        .container{
+            display: flex;
+            background-color: blue;
+            height:10vh;
+        }
+        .logo{
+            background-image: cover;
+            /* float:left; */
+            justify-content: left;
+        }
+        .tab{
+            margin-left: 150px;
+        }
+        ul{
+            padding-top: 25px;
+        }
+        li{
+            display: inline-block;
+            list-style: none;
+            padding-left: 50px; 
+        }
+        a{
+            text-decoration: none;
+            color:white;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 23px;
+            
+        }
+        a:hover{
+            color:black;
+            font-weight: 200;
+        }
+        .button{
+           
+            /* justify-content: space-between; */
+            display:inline-block;
+            margin-top: 18px;
+            margin-left:100px;
+            padding-left:20px;
+            
+            
+        }
+        p{
+            color:black;
+            font-size: 15px;
+            padding:5px;
+        
+
+        }
+        p:hover{
+            cursor: pointer;
+            color: brown;
+        }
+        .content{
+            background-color: rgb(33, 7, 147);
+            min-height:calc(80vh);
+        }
+        .last{
+            display:flex;
+            justify-content: center;
+            padding-top: 18px;
+            height: 10vh;
+            background-color: aqua;
+
+        }
+        .button1{
+            margin:18px;
+        }
+        .tab2{
+            display:flex;
+            height:6vh;
+            background-color: azure;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-size: 13px;
+
+        }
+        .tab21{
+            border:4px solid black;
+            height: 6vh;
+            width:20vw;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-size: 13px;
+        }
+        
+        .tab22{
+            border:4px solid black;
+            height: 6vh;
+            width:20vw;
+        }
+
+        .tab23{
+            border:4px solid black;
+            height: 6vh;
+            width:20vw;
+        }
+        .tab24{
+            border:4px solid black;
+            height: 6vh;
+            width:20vw;
+        }
+        .tab25{
+            border:4px solid black;
+            height: 6vh;
+            width:20vw;
+        }
+        h5{
+            padding:15px;
+            padding-left:45px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-size: 13px;
+
+        }
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo"><img src="logo.jpg" height="70px"alt="logo" srcset="">
+            </div>
+            <div class="tab">
+                <ul>
+                    <li><a href="http://">Home</a></li>
+                    <li><a href="http://">About</a></li>
+                    <li><a href="http://">Contact</a></li>
+                    <li><a href="http://">Services</a></li>
+                </ul>
+                
+            </div>
+            <div class="button">
+                <button type="button"><p>Donar Login</p></button>
+                <input type="text">
+                
+            </div>
+            <div class="button1">
+                <input type="password" placeholder="password">
+                <button type="button"><p>Sign up</p></button>
+            </div>
+            
+        </div>
+    </header>
+    <main>
+        <div class="content">
+            <div class="tab2">
+                <div class="tab21">
+                    <h5>Register</h5>
+                </div>
+                <div class="tab22">
+                    <h5>Why Donate Blood</h5>
+                </div>
+                <div class="tab23">
+                    <h5>Who can give blood</h5>
+                </div>
+                <div class="tab24">
+                    <h5>Refer a friend</h5>
+                </div>
+                <div class="tab25">
+                    <h5>Contact Us</h5>
+                </div>
+
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="last">
+            copyright&COPY; protected website
+        </div>
+    </footer>
+</body>
+</html>
